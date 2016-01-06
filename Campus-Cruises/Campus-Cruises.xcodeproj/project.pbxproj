@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA1AACF1C3D941A008E63DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1AACE1C3D941A008E63DD /* main.m */; };
+		ABA1AAD21C3D941A008E63DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1AAD11C3D941A008E63DD /* AppDelegate.m */; };
+		ABA1AAD51C3D941A008E63DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1AAD41C3D941A008E63DD /* ViewController.m */; };
+		ABA1AAD81C3D941A008E63DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA1AAD61C3D941A008E63DD /* Main.storyboard */; };
+		ABA1AADB1C3D941A008E63DD /* Campus_Cruises.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABA1AAD91C3D941A008E63DD /* Campus_Cruises.xcdatamodeld */; };
+		ABA1AADD1C3D941A008E63DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA1AADC1C3D941A008E63DD /* Assets.xcassets */; };
+		ABA1AAE01C3D941A008E63DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA1AADE1C3D941A008E63DD /* LaunchScreen.storyboard */; };
+		ABA1AAEB1C3D941B008E63DD /* Campus_CruisesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1AAEA1C3D941B008E63DD /* Campus_CruisesTests.m */; };
+		ABA1AAF61C3D941B008E63DD /* Campus_CruisesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1AAF51C3D941B008E63DD /* Campus_CruisesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABA1AAE71C3D941B008E63DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA1AAC21C3D941A008E63DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA1AAC91C3D941A008E63DD;
+			remoteInfo = "Campus-Cruises";
+		};
+		ABA1AAF21C3D941B008E63DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA1AAC21C3D941A008E63DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA1AAC91C3D941A008E63DD;
+			remoteInfo = "Campus-Cruises";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABA1AACA1C3D941A008E63DD /* Campus-Cruises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Campus-Cruises.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA1AACE1C3D941A008E63DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABA1AAD01C3D941A008E63DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABA1AAD11C3D941A008E63DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABA1AAD31C3D941A008E63DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABA1AAD41C3D941A008E63DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABA1AAD71C3D941A008E63DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABA1AADA1C3D941A008E63DD /* Campus_Cruises.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Campus_Cruises.xcdatamodel; sourceTree = "<group>"; };
+		ABA1AADC1C3D941A008E63DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA1AADF1C3D941A008E63DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABA1AAE11C3D941A008E63DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA1AAE61C3D941B008E63DD /* Campus-CruisesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Campus-CruisesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA1AAEA1C3D941B008E63DD /* Campus_CruisesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Campus_CruisesTests.m; sourceTree = "<group>"; };
+		ABA1AAEC1C3D941B008E63DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA1AAF11C3D941B008E63DD /* Campus-CruisesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Campus-CruisesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA1AAF51C3D941B008E63DD /* Campus_CruisesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Campus_CruisesUITests.m; sourceTree = "<group>"; };
+		ABA1AAF71C3D941B008E63DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA1AAC71C3D941A008E63DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA1AAE31C3D941B008E63DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA1AAEE1C3D941B008E63DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA1AAC11C3D941A008E63DD = {
+			isa = PBXGroup;
+			children = (
+				ABA1AACC1C3D941A008E63DD /* Campus-Cruises */,
+				ABA1AAE91C3D941B008E63DD /* Campus-CruisesTests */,
+				ABA1AAF41C3D941B008E63DD /* Campus-CruisesUITests */,
+				ABA1AACB1C3D941A008E63DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA1AACB1C3D941A008E63DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA1AACA1C3D941A008E63DD /* Campus-Cruises.app */,
+				ABA1AAE61C3D941B008E63DD /* Campus-CruisesTests.xctest */,
+				ABA1AAF11C3D941B008E63DD /* Campus-CruisesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA1AACC1C3D941A008E63DD /* Campus-Cruises */ = {
+			isa = PBXGroup;
+			children = (
+				ABA1AAD01C3D941A008E63DD /* AppDelegate.h */,
+				ABA1AAD11C3D941A008E63DD /* AppDelegate.m */,
+				ABA1AAD31C3D941A008E63DD /* ViewController.h */,
+				ABA1AAD41C3D941A008E63DD /* ViewController.m */,
+				ABA1AAD61C3D941A008E63DD /* Main.storyboard */,
+				ABA1AADC1C3D941A008E63DD /* Assets.xcassets */,
+				ABA1AADE1C3D941A008E63DD /* LaunchScreen.storyboard */,
+				ABA1AAE11C3D941A008E63DD /* Info.plist */,
+				ABA1AAD91C3D941A008E63DD /* Campus_Cruises.xcdatamodeld */,
+				ABA1AACD1C3D941A008E63DD /* Supporting Files */,
+			);
+			path = "Campus-Cruises";
+			sourceTree = "<group>";
+		};
+		ABA1AACD1C3D941A008E63DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABA1AACE1C3D941A008E63DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABA1AAE91C3D941B008E63DD /* Campus-CruisesTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA1AAEA1C3D941B008E63DD /* Campus_CruisesTests.m */,
+				ABA1AAEC1C3D941B008E63DD /* Info.plist */,
+			);
+			path = "Campus-CruisesTests";
+			sourceTree = "<group>";
+		};
+		ABA1AAF41C3D941B008E63DD /* Campus-CruisesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA1AAF51C3D941B008E63DD /* Campus_CruisesUITests.m */,
+				ABA1AAF71C3D941B008E63DD /* Info.plist */,
+			);
+			path = "Campus-CruisesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA1AAC91C3D941A008E63DD /* Campus-Cruises */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA1AAFA1C3D941B008E63DD /* Build configuration list for PBXNativeTarget "Campus-Cruises" */;
+			buildPhases = (
+				ABA1AAC61C3D941A008E63DD /* Sources */,
+				ABA1AAC71C3D941A008E63DD /* Frameworks */,
+				ABA1AAC81C3D941A008E63DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Campus-Cruises";
+			productName = "Campus-Cruises";
+			productReference = ABA1AACA1C3D941A008E63DD /* Campus-Cruises.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABA1AAE51C3D941B008E63DD /* Campus-CruisesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA1AAFD1C3D941B008E63DD /* Build configuration list for PBXNativeTarget "Campus-CruisesTests" */;
+			buildPhases = (
+				ABA1AAE21C3D941B008E63DD /* Sources */,
+				ABA1AAE31C3D941B008E63DD /* Frameworks */,
+				ABA1AAE41C3D941B008E63DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA1AAE81C3D941B008E63DD /* PBXTargetDependency */,
+			);
+			name = "Campus-CruisesTests";
+			productName = "Campus-CruisesTests";
+			productReference = ABA1AAE61C3D941B008E63DD /* Campus-CruisesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABA1AAF01C3D941B008E63DD /* Campus-CruisesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA1AB001C3D941B008E63DD /* Build configuration list for PBXNativeTarget "Campus-CruisesUITests" */;
+			buildPhases = (
+				ABA1AAED1C3D941B008E63DD /* Sources */,
+				ABA1AAEE1C3D941B008E63DD /* Frameworks */,
+				ABA1AAEF1C3D941B008E63DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA1AAF31C3D941B008E63DD /* PBXTargetDependency */,
+			);
+			name = "Campus-CruisesUITests";
+			productName = "Campus-CruisesUITests";
+			productReference = ABA1AAF11C3D941B008E63DD /* Campus-CruisesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA1AAC21C3D941A008E63DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Trevor Hodde";
+				TargetAttributes = {
+					ABA1AAC91C3D941A008E63DD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					ABA1AAE51C3D941B008E63DD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ABA1AAC91C3D941A008E63DD;
+					};
+					ABA1AAF01C3D941B008E63DD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ABA1AAC91C3D941A008E63DD;
+					};
+				};
+			};
+			buildConfigurationList = ABA1AAC51C3D941A008E63DD /* Build configuration list for PBXProject "Campus-Cruises" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA1AAC11C3D941A008E63DD;
+			productRefGroup = ABA1AACB1C3D941A008E63DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA1AAC91C3D941A008E63DD /* Campus-Cruises */,
+				ABA1AAE51C3D941B008E63DD /* Campus-CruisesTests */,
+				ABA1AAF01C3D941B008E63DD /* Campus-CruisesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA1AAC81C3D941A008E63DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA1AAE01C3D941A008E63DD /* LaunchScreen.storyboard in Resources */,
+				ABA1AADD1C3D941A008E63DD /* Assets.xcassets in Resources */,
+				ABA1AAD81C3D941A008E63DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA1AAE41C3D941B008E63DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA1AAEF1C3D941B008E63DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA1AAC61C3D941A008E63DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA1AAD51C3D941A008E63DD /* ViewController.m in Sources */,
+				ABA1AADB1C3D941A008E63DD /* Campus_Cruises.xcdatamodeld in Sources */,
+				ABA1AAD21C3D941A008E63DD /* AppDelegate.m in Sources */,
+				ABA1AACF1C3D941A008E63DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA1AAE21C3D941B008E63DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA1AAEB1C3D941B008E63DD /* Campus_CruisesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA1AAED1C3D941B008E63DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA1AAF61C3D941B008E63DD /* Campus_CruisesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABA1AAE81C3D941B008E63DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA1AAC91C3D941A008E63DD /* Campus-Cruises */;
+			targetProxy = ABA1AAE71C3D941B008E63DD /* PBXContainerItemProxy */;
+		};
+		ABA1AAF31C3D941B008E63DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA1AAC91C3D941A008E63DD /* Campus-Cruises */;
+			targetProxy = ABA1AAF21C3D941B008E63DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABA1AAD61C3D941A008E63DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA1AAD71C3D941A008E63DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABA1AADE1C3D941A008E63DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA1AADF1C3D941A008E63DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABA1AAF81C3D941B008E63DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABA1AAF91C3D941B008E63DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA1AAFB1C3D941B008E63DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Campus-Cruises/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Campus-Cruises";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABA1AAFC1C3D941B008E63DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Campus-Cruises/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Campus-Cruises";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABA1AAFE1C3D941B008E63DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Campus-CruisesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Campus-CruisesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Campus-Cruises.app/Campus-Cruises";
+			};
+			name = Debug;
+		};
+		ABA1AAFF1C3D941B008E63DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Campus-CruisesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Campus-CruisesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Campus-Cruises.app/Campus-Cruises";
+			};
+			name = Release;
+		};
+		ABA1AB011C3D941B008E63DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Campus-CruisesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Campus-CruisesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Campus-Cruises";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ABA1AB021C3D941B008E63DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Campus-CruisesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Campus-CruisesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Campus-Cruises";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA1AAC51C3D941A008E63DD /* Build configuration list for PBXProject "Campus-Cruises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA1AAF81C3D941B008E63DD /* Debug */,
+				ABA1AAF91C3D941B008E63DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA1AAFA1C3D941B008E63DD /* Build configuration list for PBXNativeTarget "Campus-Cruises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA1AAFB1C3D941B008E63DD /* Debug */,
+				ABA1AAFC1C3D941B008E63DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABA1AAFD1C3D941B008E63DD /* Build configuration list for PBXNativeTarget "Campus-CruisesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA1AAFE1C3D941B008E63DD /* Debug */,
+				ABA1AAFF1C3D941B008E63DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABA1AB001C3D941B008E63DD /* Build configuration list for PBXNativeTarget "Campus-CruisesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA1AB011C3D941B008E63DD /* Debug */,
+				ABA1AB021C3D941B008E63DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABA1AAD91C3D941A008E63DD /* Campus_Cruises.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABA1AADA1C3D941A008E63DD /* Campus_Cruises.xcdatamodel */,
+			);
+			currentVersion = ABA1AADA1C3D941A008E63DD /* Campus_Cruises.xcdatamodel */;
+			path = Campus_Cruises.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ABA1AAC21C3D941A008E63DD /* Project object */;
+}
