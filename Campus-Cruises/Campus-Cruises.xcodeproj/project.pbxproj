@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9DFD3031C3DA7F300C33E13 /* wpi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9DFD3021C3DA7F300C33E13 /* wpi.jpg */; };
 		ABA1AACF1C3D941A008E63DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1AACE1C3D941A008E63DD /* main.m */; };
 		ABA1AAD21C3D941A008E63DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1AAD11C3D941A008E63DD /* AppDelegate.m */; };
 		ABA1AAD51C3D941A008E63DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1AAD41C3D941A008E63DD /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A9DFD3021C3DA7F300C33E13 /* wpi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wpi.jpg; sourceTree = "<group>"; };
 		ABA1AACA1C3D941A008E63DD /* Campus-Cruises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Campus-Cruises.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA1AACE1C3D941A008E63DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABA1AAD01C3D941A008E63DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		ABA1AACD1C3D941A008E63DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A9DFD3021C3DA7F300C33E13 /* wpi.jpg */,
 				ABA1AACE1C3D941A008E63DD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -248,6 +251,7 @@
 			files = (
 				ABA1AAE01C3D941A008E63DD /* LaunchScreen.storyboard in Resources */,
 				ABA1AADD1C3D941A008E63DD /* Assets.xcassets in Resources */,
+				A9DFD3031C3DA7F300C33E13 /* wpi.jpg in Resources */,
 				ABA1AAD81C3D941A008E63DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +506,7 @@
 				ABA1AAFC1C3D941B008E63DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABA1AAFD1C3D941B008E63DD /* Build configuration list for PBXNativeTarget "Campus-CruisesTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +515,7 @@
 				ABA1AAFF1C3D941B008E63DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABA1AB001C3D941B008E63DD /* Build configuration list for PBXNativeTarget "Campus-CruisesUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +524,7 @@
 				ABA1AB021C3D941B008E63DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
