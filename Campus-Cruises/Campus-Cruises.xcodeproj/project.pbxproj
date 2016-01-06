@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		A9DFD3031C3DA7F300C33E13 /* wpi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9DFD3021C3DA7F300C33E13 /* wpi.jpg */; };
+		AB983E721C3DAA8C00268554 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E701C3DAA8C00268554 /* Bolts.framework */; };
+		AB983E731C3DAA8C00268554 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E711C3DAA8C00268554 /* Parse.framework */; };
+		AB983E751C3DAAB000268554 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E741C3DAAB000268554 /* AudioToolbox.framework */; };
+		AB983E771C3DAAB700268554 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E761C3DAAB700268554 /* CFNetwork.framework */; };
+		AB983E791C3DAABE00268554 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E781C3DAABE00268554 /* CoreGraphics.framework */; };
+		AB983E7B1C3DAAC300268554 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E7A1C3DAAC300268554 /* CoreLocation.framework */; };
+		AB983E7D1C3DAAC900268554 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E7C1C3DAAC900268554 /* QuartzCore.framework */; };
+		AB983E7F1C3DAACF00268554 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E7E1C3DAACF00268554 /* Security.framework */; };
+		AB983E811C3DAAD600268554 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E801C3DAAD600268554 /* StoreKit.framework */; };
+		AB983E831C3DAADF00268554 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E821C3DAADF00268554 /* SystemConfiguration.framework */; };
+		AB983E851C3DAAE600268554 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E841C3DAAE600268554 /* libz.tbd */; };
+		AB983E871C3DAAED00268554 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E861C3DAAED00268554 /* libsqlite3.tbd */; };
 		ABA1AACF1C3D941A008E63DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1AACE1C3D941A008E63DD /* main.m */; };
 		ABA1AAD21C3D941A008E63DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1AAD11C3D941A008E63DD /* AppDelegate.m */; };
 		ABA1AAD51C3D941A008E63DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1AAD41C3D941A008E63DD /* ViewController.m */; };
@@ -38,6 +50,18 @@
 
 /* Begin PBXFileReference section */
 		A9DFD3021C3DA7F300C33E13 /* wpi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wpi.jpg; sourceTree = "<group>"; };
+		AB983E701C3DAA8C00268554 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		AB983E711C3DAA8C00268554 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		AB983E741C3DAAB000268554 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AB983E761C3DAAB700268554 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AB983E781C3DAABE00268554 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB983E7A1C3DAAC300268554 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AB983E7C1C3DAAC900268554 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AB983E7E1C3DAACF00268554 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AB983E801C3DAAD600268554 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AB983E821C3DAADF00268554 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AB983E841C3DAAE600268554 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		AB983E861C3DAAED00268554 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		ABA1AACA1C3D941A008E63DD /* Campus-Cruises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Campus-Cruises.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA1AACE1C3D941A008E63DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABA1AAD01C3D941A008E63DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +86,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB983E871C3DAAED00268554 /* libsqlite3.tbd in Frameworks */,
+				AB983E851C3DAAE600268554 /* libz.tbd in Frameworks */,
+				AB983E831C3DAADF00268554 /* SystemConfiguration.framework in Frameworks */,
+				AB983E811C3DAAD600268554 /* StoreKit.framework in Frameworks */,
+				AB983E7F1C3DAACF00268554 /* Security.framework in Frameworks */,
+				AB983E7D1C3DAAC900268554 /* QuartzCore.framework in Frameworks */,
+				AB983E7B1C3DAAC300268554 /* CoreLocation.framework in Frameworks */,
+				AB983E791C3DAABE00268554 /* CoreGraphics.framework in Frameworks */,
+				AB983E771C3DAAB700268554 /* CFNetwork.framework in Frameworks */,
+				AB983E751C3DAAB000268554 /* AudioToolbox.framework in Frameworks */,
+				AB983E731C3DAA8C00268554 /* Parse.framework in Frameworks */,
+				AB983E721C3DAA8C00268554 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +121,18 @@
 		ABA1AAC11C3D941A008E63DD = {
 			isa = PBXGroup;
 			children = (
+				AB983E861C3DAAED00268554 /* libsqlite3.tbd */,
+				AB983E841C3DAAE600268554 /* libz.tbd */,
+				AB983E821C3DAADF00268554 /* SystemConfiguration.framework */,
+				AB983E801C3DAAD600268554 /* StoreKit.framework */,
+				AB983E7E1C3DAACF00268554 /* Security.framework */,
+				AB983E7C1C3DAAC900268554 /* QuartzCore.framework */,
+				AB983E7A1C3DAAC300268554 /* CoreLocation.framework */,
+				AB983E781C3DAABE00268554 /* CoreGraphics.framework */,
+				AB983E761C3DAAB700268554 /* CFNetwork.framework */,
+				AB983E741C3DAAB000268554 /* AudioToolbox.framework */,
+				AB983E701C3DAA8C00268554 /* Bolts.framework */,
+				AB983E711C3DAA8C00268554 /* Parse.framework */,
 				ABA1AACC1C3D941A008E63DD /* Campus-Cruises */,
 				ABA1AAE91C3D941B008E63DD /* Campus-CruisesTests */,
 				ABA1AAF41C3D941B008E63DD /* Campus-CruisesUITests */,
@@ -421,6 +469,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Campus-Cruises/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Campus-Cruises";
@@ -432,6 +484,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Campus-Cruises/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Campus-Cruises";
