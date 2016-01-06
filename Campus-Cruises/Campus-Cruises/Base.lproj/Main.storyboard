@@ -109,6 +109,13 @@
                                     <segue destination="6DA-Jm-pgZ" kind="presentation" id="0dy-1O-lYG"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bpc-DI-Mfa">
+                                <rect key="frame" x="60" y="67" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="8rR-fH-8i3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -135,6 +142,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwh-oa-u6m">
+                                <rect key="frame" x="44" y="64" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="5Df-px-vMk" kind="presentation" id="WJY-Fr-eQC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -298,7 +312,8 @@
         <image name="wpi.jpg" width="1550" height="630"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Inv-8f-OzN"/>
+        <segue reference="WJY-Fr-eQC"/>
         <segue reference="JsC-2Y-Vu6"/>
+        <segue reference="Inv-8f-OzN"/>
     </inferredMetricsTieBreakers>
 </document>
