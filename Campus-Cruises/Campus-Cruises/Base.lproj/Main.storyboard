@@ -280,7 +280,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hm-w2-BV6">
-                                <rect key="frame" x="225" y="165" width="151" height="97"/>
+                                <rect key="frame" x="225" y="456" width="151" height="97"/>
                                 <state key="normal" title="Back to Home"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="5Xg-3s-4Xk"/>
@@ -292,6 +292,13 @@
                                 <color key="textColor" red="0.71764705882352942" green="0.0" blue="0.12941176470588237" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JIQ-eT-JLh">
+                                <rect key="frame" x="91" y="150" width="449" height="166.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Campus Cruises is a start up app whose goal is to help provide college students with safe rides around campus and outside of campus. This initiative was started with an idea by our co-founder Zack Feldman. Zack later met a computer science student from Worcester Polytechnic Institute Tyler Colombo and presented the idea. That is where the alliance was bonded from an excellent idea with a great purpose. As a student Tyler brought on another computer science friend and master's student alumni from WPI Trevor Hodde.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
