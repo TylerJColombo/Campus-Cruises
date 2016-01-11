@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -38,7 +38,7 @@
                                     <color key="titleShadowColor" red="0.28846940450000003" green="0.28846940450000003" blue="0.28846940450000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="KCp-Ka-l3O" kind="presentation" id="4Bj-Wn-ZIt"/>
+                                    <segue destination="KCp-Ka-l3O" kind="presentation" id="RGY-j9-Z3F"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sv-4X-Z2W">
@@ -160,7 +160,7 @@
         <!--Register_Screen-->
         <scene sceneID="BzC-Cp-oh8">
             <objects>
-                <viewController title="Register_Screen" id="KCp-Ka-l3O" sceneMemberID="viewController">
+                <viewController title="Register_Screen" id="KCp-Ka-l3O" customClass="RegistrationViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="V8H-PI-NpM"/>
                         <viewControllerLayoutGuide type="bottom" id="iM0-Ai-O4U"/>
@@ -175,39 +175,46 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZUA-Iu-Ab9">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="emailTextField" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZUA-Iu-Ab9">
                                 <rect key="frame" x="215" y="246" width="171" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="emailTextField" label="emailTextField"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xnT-z9-NAz">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="firstNameTextField" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xnT-z9-NAz">
                                 <rect key="frame" x="215" y="290" width="171" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="firstNameTextField" label="firstNameTextField"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="12A-7J-i94">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="lastNameTextField" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="12A-7J-i94">
                                 <rect key="frame" x="215" y="328" width="171" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="lastNameTextField" label="lastNameTextField"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8WA-wV-lhr">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="passwordTextField" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8WA-wV-lhr">
                                 <rect key="frame" x="215" y="406" width="171" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="passwordTextField" label="passwordTextField"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Verify Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vQL-pu-DSA">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="password2TextField" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Verify Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vQL-pu-DSA">
                                 <rect key="frame" x="215" y="444" width="171" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="password2TextField" label="password2TextField"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Student ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vga-y6-UfU">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="studentIDTextField" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Student ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vga-y6-UfU">
                                 <rect key="frame" x="215" y="366" width="171" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="studentIDTextField" label="studentIDTextField"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sx7-tF-Hto">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="registerButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sx7-tF-Hto">
                                 <rect key="frame" x="254" y="508" width="92" height="30"/>
                                 <color key="backgroundColor" red="0.64313725490196083" green="0.10588235294117647" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" label="registerButton"/>
                                 <color key="tintColor" red="0.92021842277486909" green="0.92021842277486909" blue="0.92021842277486909" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -219,6 +226,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="registerUser:" destination="KCp-Ka-l3O" eventType="touchUpInside" id="hM4-pE-777"/>
                                     <segue destination="bMP-0e-ODa" kind="presentation" id="L0j-9e-DQh"/>
                                 </connections>
                             </button>
@@ -232,6 +240,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="ZUA-Iu-Ab9" id="vVF-v8-E46"/>
+                        <outlet property="firstNameTextField" destination="xnT-z9-NAz" id="Kjv-IX-HRD"/>
+                        <outlet property="lastNameTextField" destination="12A-7J-i94" id="2dv-Ey-krj"/>
+                        <outlet property="password2TextField" destination="vQL-pu-DSA" id="yo1-rz-b55"/>
+                        <outlet property="passwordTextField" destination="8WA-wV-lhr" id="KoN-lR-ned"/>
+                        <outlet property="studentIDTextField" destination="Vga-y6-UfU" id="8l3-aq-4M1"/>
+                        <outlet property="view" destination="ZUA-Iu-Ab9" id="S80-w8-QvY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NW1-vf-QcH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -295,7 +312,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JIQ-eT-JLh">
                                 <rect key="frame" x="91" y="150" width="449" height="166.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Campus Cruises is a start up app whose goal is to help provide college students with safe rides around campus and outside of campus. This initiative was started with an idea by our co-founder Zack Feldman. Zack later met a computer science student from Worcester Polytechnic Institute Tyler Colombo and presented the idea. That is where the alliance was bonded from an excellent idea with a great purpose. As a student Tyler brought on another computer science friend and master's student alumni from WPI Trevor Hodde.</mutableString>
+                                <string key="text">Campus Cruises is a start up app whose goal is to help provide college students with safe rides around campus and outside of campus. This initiative was started with an idea by our co-founder Zack Feldman. Zack later met a computer science student from Worcester Polytechnic Institute Tyler Colombo and presented the idea. That is where the alliance was bonded from an excellent idea with a great purpose. As a student Tyler brought on another computer science friend and master's student alumni from WPI Trevor Hodde.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -312,8 +329,8 @@
         <image name="wpi.jpg" width="1550" height="630"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5Xg-3s-4Xk"/>
-        <segue reference="WJY-Fr-eQC"/>
-        <segue reference="JsC-2Y-Vu6"/>
+        <segue reference="N7s-C4-fbf"/>
+        <segue reference="RGY-j9-Z3F"/>
+        <segue reference="Can-T6-lFl"/>
     </inferredMetricsTieBreakers>
 </document>
