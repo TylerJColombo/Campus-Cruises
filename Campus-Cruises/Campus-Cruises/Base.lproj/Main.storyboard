@@ -72,7 +72,7 @@
         <!--sign_in_screen-->
         <scene sceneID="oOl-hI-Ydm">
             <objects>
-                <viewController title="sign_in_screen" id="5Df-px-vMk" sceneMemberID="viewController">
+                <viewController title="sign_in_screen" id="5Df-px-vMk" customClass="SignInViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wYr-Xc-1fx"/>
                         <viewControllerLayoutGuide type="bottom" id="5K6-5p-6Mu"/>
@@ -87,17 +87,19 @@
                                 <color key="textColor" red="0.65098039215686276" green="0.0" blue="0.098039215686274508" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xoJ-WW-Vis">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="usernameTextField" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xoJ-WW-Vis">
                                 <rect key="frame" x="191" y="157" width="219" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="usernameTextField" label="usernameTextField"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vkf-9L-Qkq">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="passwordTextField" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vkf-9L-Qkq">
                                 <rect key="frame" x="191" y="227" width="219" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="passwordTextField" label="passwordTextField"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iP2-sv-4sW">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="signInButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iP2-sv-4sW">
                                 <rect key="frame" x="233" y="299" width="134" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -106,6 +108,7 @@
                                     <color key="titleShadowColor" red="0.28846940450000003" green="0.28846940450000003" blue="0.28846940450000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="signIn:" destination="5Df-px-vMk" eventType="touchUpInside" id="YUs-vF-Snw"/>
                                     <segue destination="6DA-Jm-pgZ" kind="presentation" id="0dy-1O-lYG"/>
                                 </connections>
                             </button>
@@ -119,6 +122,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="vkf-9L-Qkq" id="s8X-f4-Bl5"/>
+                        <outlet property="usernameTextField" destination="xoJ-WW-Vis" id="h9g-cx-hzO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hmW-qf-Zrs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -329,8 +336,8 @@
         <image name="wpi.jpg" width="1550" height="630"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="N7s-C4-fbf"/>
-        <segue reference="RGY-j9-Z3F"/>
+        <segue reference="8rR-fH-8i3"/>
         <segue reference="Can-T6-lFl"/>
+        <segue reference="RGY-j9-Z3F"/>
     </inferredMetricsTieBreakers>
 </document>

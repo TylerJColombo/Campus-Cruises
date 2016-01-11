@@ -10,6 +10,7 @@
 		A9DFD3031C3DA7F300C33E13 /* wpi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9DFD3021C3DA7F300C33E13 /* wpi.jpg */; };
 		AB896AFD1C4458E8005EBE63 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB896AFB1C4458E8005EBE63 /* RegistrationViewController.m */; };
 		AB896AFE1C4458E8005EBE63 /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB896AFC1C4458E8005EBE63 /* RegistrationViewController.xib */; };
+		AB896B061C446DF6005EBE63 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB896B051C446DF6005EBE63 /* SignInViewController.m */; };
 		AB983E721C3DAA8C00268554 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E701C3DAA8C00268554 /* Bolts.framework */; };
 		AB983E731C3DAA8C00268554 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E711C3DAA8C00268554 /* Parse.framework */; };
 		AB983E751C3DAAB000268554 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E741C3DAAB000268554 /* AudioToolbox.framework */; };
@@ -55,6 +56,8 @@
 		AB896AFA1C4458E8005EBE63 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
 		AB896AFB1C4458E8005EBE63 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
 		AB896AFC1C4458E8005EBE63 /* RegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
+		AB896B041C446DF6005EBE63 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		AB896B051C446DF6005EBE63 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
 		AB983E701C3DAA8C00268554 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		AB983E711C3DAA8C00268554 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		AB983E741C3DAAB000268554 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -171,6 +174,8 @@
 				AB896AFA1C4458E8005EBE63 /* RegistrationViewController.h */,
 				AB896AFB1C4458E8005EBE63 /* RegistrationViewController.m */,
 				AB896AFC1C4458E8005EBE63 /* RegistrationViewController.xib */,
+				AB896B041C446DF6005EBE63 /* SignInViewController.h */,
+				AB896B051C446DF6005EBE63 /* SignInViewController.m */,
 			);
 			path = "Campus-Cruises";
 			sourceTree = "<group>";
@@ -338,6 +343,7 @@
 				ABA1AADB1C3D941A008E63DD /* Campus_Cruises.xcdatamodeld in Sources */,
 				AB896AFD1C4458E8005EBE63 /* RegistrationViewController.m in Sources */,
 				ABA1AAD21C3D941A008E63DD /* AppDelegate.m in Sources */,
+				AB896B061C446DF6005EBE63 /* SignInViewController.m in Sources */,
 				ABA1AACF1C3D941A008E63DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
