@@ -30,11 +30,11 @@
 //      1) Check if username exists
 //      2) Check if password is correct
 //      3) Remove back button to avoid weird double login issues
+//      4) ONLY SEGUE IF LOGIN IS CORRECT!
 - (IBAction)signIn:(UIButton *)sender {
     //Login button pressed
     [PFUser logInWithUsernameInBackground:self.usernameTextField.text password:self.passwordTextField.text block:^(PFUser *user, NSError *error) {
         if (user) {
-            //Open the wall
             [self performSegueWithIdentifier:@"LoginSuccesful" sender:self];
         } else {
             //Something bad has ocurred
