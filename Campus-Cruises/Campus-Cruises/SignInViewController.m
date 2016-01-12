@@ -26,21 +26,25 @@
     // Dispose of any resources that can be recreated.
 }
 
-// TODO -- add error checking:
-//      1) Check if username exists
-//      2) Check if password is correct
-//      3) Remove back button to avoid weird double login issues
-//      4) ONLY SEGUE IF LOGIN IS CORRECT!
+// TODO:
+//      1) Remove back button to avoid weird double login issues -- later
 - (IBAction)signIn:(UIButton *)sender {
     //Login button pressed
     [PFUser logInWithUsernameInBackground:self.usernameTextField.text password:self.passwordTextField.text block:^(PFUser *user, NSError *error) {
         if (user) {
-            [self performSegueWithIdentifier:@"LoginSuccesful" sender:self];
+            [self performSegueWithIdentifier:@"successfullyLoggedIn" sender:self];
         } else {
-            //Something bad has ocurred
-            NSString *errorString = [[error userInfo] objectForKey:@"error"];
-            //UIAlertView *errorAlertView = [[UIAlertView alloc] initWithTitle:@"Error" message:errorString delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
-            //[errorAlertView show];
+            //invalid login
+            // TODO -- match the message and title to real one to make sure it's legit
+            UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Invalid Credentials"
+                                                                           message:@"You have entered an incorrect username or password."
+                                                                    preferredStyle:UIAlertControllerStyleAlert];
+            
+            UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                                  handler:^(UIAlertAction * action) {}];
+            
+            [alert addAction:defaultAction];
+            [self presentViewController:alert animated:YES completion:nil];
         }
     }];
 }

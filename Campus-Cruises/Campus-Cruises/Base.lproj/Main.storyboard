@@ -109,7 +109,6 @@
                                 </state>
                                 <connections>
                                     <action selector="signIn:" destination="5Df-px-vMk" eventType="touchUpInside" id="YUs-vF-Snw"/>
-                                    <segue destination="6DA-Jm-pgZ" kind="presentation" id="0dy-1O-lYG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bpc-DI-Mfa">
@@ -125,6 +124,7 @@
                     <connections>
                         <outlet property="passwordTextField" destination="vkf-9L-Qkq" id="s8X-f4-Bl5"/>
                         <outlet property="usernameTextField" destination="xoJ-WW-Vis" id="h9g-cx-hzO"/>
+                        <segue destination="6DA-Jm-pgZ" kind="presentation" identifier="successfullyLoggedIn" id="vC4-C8-Ubd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hmW-qf-Zrs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -134,7 +134,7 @@
         <!--View Controller-->
         <scene sceneID="kGY-vq-wvZ">
             <objects>
-                <viewController id="6DA-Jm-pgZ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loggedIn" id="6DA-Jm-pgZ" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vL7-xO-Rsy"/>
                         <viewControllerLayoutGuide type="bottom" id="cXz-bz-btO"/>
@@ -336,8 +336,8 @@
         <image name="wpi.jpg" width="1550" height="630"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8rR-fH-8i3"/>
-        <segue reference="Can-T6-lFl"/>
         <segue reference="RGY-j9-Z3F"/>
+        <segue reference="8rR-fH-8i3"/>
+        <segue reference="WJY-Fr-eQC"/>
     </inferredMetricsTieBreakers>
 </document>
