@@ -234,7 +234,6 @@
                                 </state>
                                 <connections>
                                     <action selector="registerUser:" destination="KCp-Ka-l3O" eventType="touchUpInside" id="hM4-pE-777"/>
-                                    <segue destination="bMP-0e-ODa" kind="presentation" id="L0j-9e-DQh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGg-8P-6nM">
@@ -255,11 +254,12 @@
                         <outlet property="passwordTextField" destination="8WA-wV-lhr" id="KoN-lR-ned"/>
                         <outlet property="studentIDTextField" destination="Vga-y6-UfU" id="8l3-aq-4M1"/>
                         <outlet property="view" destination="ZUA-Iu-Ab9" id="S80-w8-QvY"/>
+                        <segue destination="bMP-0e-ODa" kind="presentation" identifier="registeredSuccessfully" id="aka-MV-jaA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NW1-vf-QcH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1049" y="-410"/>
+            <point key="canvasLocation" x="1025" y="-424"/>
         </scene>
         <!--Finish_Registration_Screen-->
         <scene sceneID="jtD-Bq-1hF">
@@ -337,7 +337,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="RGY-j9-Z3F"/>
-        <segue reference="8rR-fH-8i3"/>
+        <segue reference="N7s-C4-fbf"/>
         <segue reference="WJY-Fr-eQC"/>
     </inferredMetricsTieBreakers>
 </document>

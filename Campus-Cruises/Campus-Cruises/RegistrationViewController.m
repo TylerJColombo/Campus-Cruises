@@ -57,13 +57,22 @@
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
             //The registration was successful, go to the wall
-            [self performSegueWithIdentifier:@"SignupSuccesful" sender:self];
+            [self performSegueWithIdentifier:@"registeredSuccessfully" sender:self];
             
         } else {
             //Something bad has occurred
-            NSString *errorString = [[error userInfo] objectForKey:@"error"];
-      //      UIAlertView *errorAlertView = [[UIAlertView alloc] initWithTitle:@"Error" message:errorString delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:NSNull, NSNull];
-            //[errorAlertView show];
+            // TODO -- possible make more descriptive messages based on the error:
+            //      1) User already exists
+            //      2) Bad connection
+            UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Registration Failed"
+                                                                           message:@"Something went wrong. Please try again."
+                                                                    preferredStyle:UIAlertControllerStyleAlert];
+            
+            UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                                  handler:^(UIAlertAction * action) {}];
+            
+            [alert addAction:defaultAction];
+            [self presentViewController:alert animated:YES completion:nil];
         }
     }];
 }
