@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A9DFD3031C3DA7F300C33E13 /* wpi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9DFD3021C3DA7F300C33E13 /* wpi.jpg */; };
+		AB0E76361C47039000F8B60B /* UberRides.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0E76331C47038100F8B60B /* UberRides.framework */; };
+		AB0E76371C47039000F8B60B /* UberRides.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB0E76331C47038100F8B60B /* UberRides.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AB0E763C1C4704AA00F8B60B /* RequestRideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0E763B1C4704AA00F8B60B /* RequestRideViewController.m */; };
 		AB896AFD1C4458E8005EBE63 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB896AFB1C4458E8005EBE63 /* RegistrationViewController.m */; };
 		AB896AFE1C4458E8005EBE63 /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB896AFC1C4458E8005EBE63 /* RegistrationViewController.xib */; };
 		AB896B061C446DF6005EBE63 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB896B051C446DF6005EBE63 /* SignInViewController.m */; };
@@ -35,6 +38,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AB0E76321C47038100F8B60B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB0E762D1C47038100F8B60B /* UberRides.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC0404751BFACD1D00AC1501;
+			remoteInfo = UberRides;
+		};
+		AB0E76341C47038100F8B60B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB0E762D1C47038100F8B60B /* UberRides.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC04047F1BFACD1D00AC1501;
+			remoteInfo = UberRidesTests;
+		};
+		AB0E76381C47039000F8B60B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB0E762D1C47038100F8B60B /* UberRides.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0404741BFACD1D00AC1501;
+			remoteInfo = UberRides;
+		};
 		ABA1AAE71C3D941B008E63DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABA1AAC21C3D941A008E63DD /* Project object */;
@@ -51,8 +75,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AB0E762A1C46F95D00F8B60B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AB0E76371C47039000F8B60B /* UberRides.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		A9DFD3021C3DA7F300C33E13 /* wpi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wpi.jpg; sourceTree = "<group>"; };
+		AB0E762D1C47038100F8B60B /* UberRides.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UberRides.xcodeproj; path = "rides-ios-sdk/source/UberRides.xcodeproj"; sourceTree = "<group>"; };
+		AB0E763A1C4704AA00F8B60B /* RequestRideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestRideViewController.h; sourceTree = "<group>"; };
+		AB0E763B1C4704AA00F8B60B /* RequestRideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestRideViewController.m; sourceTree = "<group>"; };
 		AB896AFA1C4458E8005EBE63 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
 		AB896AFB1C4458E8005EBE63 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
 		AB896AFC1C4458E8005EBE63 /* RegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
@@ -98,6 +139,7 @@
 				AB983E851C3DAAE600268554 /* libz.tbd in Frameworks */,
 				AB983E831C3DAADF00268554 /* SystemConfiguration.framework in Frameworks */,
 				AB983E811C3DAAD600268554 /* StoreKit.framework in Frameworks */,
+				AB0E76361C47039000F8B60B /* UberRides.framework in Frameworks */,
 				AB983E7F1C3DAACF00268554 /* Security.framework in Frameworks */,
 				AB983E7D1C3DAAC900268554 /* QuartzCore.framework in Frameworks */,
 				AB983E7B1C3DAAC300268554 /* CoreLocation.framework in Frameworks */,
@@ -126,9 +168,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB0E762E1C47038100F8B60B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB0E76331C47038100F8B60B /* UberRides.framework */,
+				AB0E76351C47038100F8B60B /* UberRidesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		ABA1AAC11C3D941A008E63DD = {
 			isa = PBXGroup;
 			children = (
+				AB0E762D1C47038100F8B60B /* UberRides.xcodeproj */,
 				AB983E861C3DAAED00268554 /* libsqlite3.tbd */,
 				AB983E841C3DAAE600268554 /* libz.tbd */,
 				AB983E821C3DAADF00268554 /* SystemConfiguration.framework */,
@@ -176,6 +228,8 @@
 				AB896AFC1C4458E8005EBE63 /* RegistrationViewController.xib */,
 				AB896B041C446DF6005EBE63 /* SignInViewController.h */,
 				AB896B051C446DF6005EBE63 /* SignInViewController.m */,
+				AB0E763A1C4704AA00F8B60B /* RequestRideViewController.h */,
+				AB0E763B1C4704AA00F8B60B /* RequestRideViewController.m */,
 			);
 			path = "Campus-Cruises";
 			sourceTree = "<group>";
@@ -217,10 +271,12 @@
 				ABA1AAC61C3D941A008E63DD /* Sources */,
 				ABA1AAC71C3D941A008E63DD /* Frameworks */,
 				ABA1AAC81C3D941A008E63DD /* Resources */,
+				AB0E762A1C46F95D00F8B60B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AB0E76391C47039000F8B60B /* PBXTargetDependency */,
 			);
 			name = "Campus-Cruises";
 			productName = "Campus-Cruises";
@@ -296,6 +352,12 @@
 			mainGroup = ABA1AAC11C3D941A008E63DD;
 			productRefGroup = ABA1AACB1C3D941A008E63DD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AB0E762E1C47038100F8B60B /* Products */;
+					ProjectRef = AB0E762D1C47038100F8B60B /* UberRides.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				ABA1AAC91C3D941A008E63DD /* Campus-Cruises */,
@@ -304,6 +366,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AB0E76331C47038100F8B60B /* UberRides.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UberRides.framework;
+			remoteRef = AB0E76321C47038100F8B60B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AB0E76351C47038100F8B60B /* UberRidesTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UberRidesTests.xctest;
+			remoteRef = AB0E76341C47038100F8B60B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		ABA1AAC81C3D941A008E63DD /* Resources */ = {
@@ -343,6 +422,7 @@
 				ABA1AADB1C3D941A008E63DD /* Campus_Cruises.xcdatamodeld in Sources */,
 				AB896AFD1C4458E8005EBE63 /* RegistrationViewController.m in Sources */,
 				ABA1AAD21C3D941A008E63DD /* AppDelegate.m in Sources */,
+				AB0E763C1C4704AA00F8B60B /* RequestRideViewController.m in Sources */,
 				AB896B061C446DF6005EBE63 /* SignInViewController.m in Sources */,
 				ABA1AACF1C3D941A008E63DD /* main.m in Sources */,
 			);
@@ -367,6 +447,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		AB0E76391C47039000F8B60B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UberRides;
+			targetProxy = AB0E76381C47039000F8B60B /* PBXContainerItemProxy */;
+		};
 		ABA1AAE81C3D941B008E63DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ABA1AAC91C3D941A008E63DD /* Campus-Cruises */;
@@ -485,9 +570,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/rides-ios-sdk/source/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = "Campus-Cruises/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -500,9 +587,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/rides-ios-sdk/source/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = "Campus-Cruises/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
+@import UberRides;
+
+// TODO Need to register our app with Uber developer site
 
 @interface AppDelegate ()
 
@@ -27,6 +30,9 @@
     
     // [Optional] Track statistics around application opens.
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    // TODO correct this as well
+    [[RidesClient sharedInstance] configureClientID:@"vrzuBwkmV5NfBgLyk0AN8nHI98skNv3TnN3iGLYo"];
     
     return YES;
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -38,7 +38,7 @@
                                             <segue destination="KCp-Ka-l3O" kind="presentation" id="RGY-j9-Z3F"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xL0-Af-yrE">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xL0-Af-yrE">
                                         <rect key="frame" x="0.0" y="45" width="99" height="45"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                         <size key="titleShadowOffset" width="1" height="1"/>
@@ -50,7 +50,7 @@
                                             <segue destination="5Df-px-vMk" kind="presentation" id="Can-T6-lFl"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sv-4X-Z2W">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sv-4X-Z2W">
                                         <rect key="frame" x="0.0" y="90" width="99" height="45"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                         <size key="titleShadowOffset" width="1" height="1"/>
@@ -136,15 +136,15 @@
             </objects>
             <point key="canvasLocation" x="1067" y="1122"/>
         </scene>
-        <!--View Controller-->
+        <!--requestViewController-->
         <scene sceneID="kGY-vq-wvZ">
             <objects>
-                <viewController storyboardIdentifier="loggedIn" id="6DA-Jm-pgZ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loggedIn" title="requestViewController" id="6DA-Jm-pgZ" customClass="RequestRideViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vL7-xO-Rsy"/>
                         <viewControllerLayoutGuide type="bottom" id="cXz-bz-btO"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Nly-Tl-UEU">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="requestRide" id="Nly-Tl-UEU">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -164,6 +164,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="requestRide" destination="Nly-Tl-UEU" id="Ncu-BJ-1Mg"/>
+                        <outlet property="requestViewController" destination="Nly-Tl-UEU" id="4hZ-em-wWU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IEm-K4-dFM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -294,7 +298,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JIQ-eT-JLh">
                                 <rect key="frame" x="9" y="150" width="305" height="258.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Campus Cruises is a start up app whose goal is to help provide college students with safe rides around campus and outside of campus. This initiative was started with an idea by our co-founder Zach Feldman. Zach later met a computer science student from Worcester Polytechnic Institute Tyler Colombo and presented the idea. That is where the alliance was bonded from an excellent idea with a great purpose. As a student Tyler brought on another computer science friend and master's student alumni from WPI Trevor Hodde.</mutableString>
+                                <string key="text">Campus Cruises is a start up app whose goal is to help provide college students with safe rides around campus and outside of campus. This initiative was started with an idea by our co-founder Zach Feldman. Zach later met a computer science student from Worcester Polytechnic Institute Tyler Colombo and presented the idea. That is where the alliance was bonded from an excellent idea with a great purpose. As a student Tyler brought on another computer science friend and master's student alumni from WPI Trevor Hodde.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
