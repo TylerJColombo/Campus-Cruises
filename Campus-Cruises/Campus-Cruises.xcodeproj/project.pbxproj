@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A9DFD3031C3DA7F300C33E13 /* wpi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9DFD3021C3DA7F300C33E13 /* wpi.jpg */; };
-		AB0E76361C47039000F8B60B /* UberRides.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0E76331C47038100F8B60B /* UberRides.framework */; };
-		AB0E76371C47039000F8B60B /* UberRides.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB0E76331C47038100F8B60B /* UberRides.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AB0E763C1C4704AA00F8B60B /* RequestRideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0E763B1C4704AA00F8B60B /* RequestRideViewController.m */; };
 		AB896AFD1C4458E8005EBE63 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB896AFB1C4458E8005EBE63 /* RegistrationViewController.m */; };
 		AB896AFE1C4458E8005EBE63 /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB896AFC1C4458E8005EBE63 /* RegistrationViewController.xib */; };
 		AB896B061C446DF6005EBE63 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB896B051C446DF6005EBE63 /* SignInViewController.m */; };
+		AB8CA2A21C470CEB004D9F1C /* UberRides.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8CA29F1C470CD2004D9F1C /* UberRides.framework */; };
+		AB8CA2A31C470CEB004D9F1C /* UberRides.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB8CA29F1C470CD2004D9F1C /* UberRides.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AB983E721C3DAA8C00268554 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E701C3DAA8C00268554 /* Bolts.framework */; };
 		AB983E731C3DAA8C00268554 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E711C3DAA8C00268554 /* Parse.framework */; };
 		AB983E751C3DAAB000268554 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB983E741C3DAAB000268554 /* AudioToolbox.framework */; };
@@ -38,23 +38,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AB0E76321C47038100F8B60B /* PBXContainerItemProxy */ = {
+		AB8CA29E1C470CD2004D9F1C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AB0E762D1C47038100F8B60B /* UberRides.xcodeproj */;
+			containerPortal = AB8CA2991C470CD2004D9F1C /* UberRides.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = AC0404751BFACD1D00AC1501;
 			remoteInfo = UberRides;
 		};
-		AB0E76341C47038100F8B60B /* PBXContainerItemProxy */ = {
+		AB8CA2A01C470CD2004D9F1C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AB0E762D1C47038100F8B60B /* UberRides.xcodeproj */;
+			containerPortal = AB8CA2991C470CD2004D9F1C /* UberRides.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = AC04047F1BFACD1D00AC1501;
 			remoteInfo = UberRidesTests;
 		};
-		AB0E76381C47039000F8B60B /* PBXContainerItemProxy */ = {
+		AB8CA2A41C470CEB004D9F1C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AB0E762D1C47038100F8B60B /* UberRides.xcodeproj */;
+			containerPortal = AB8CA2991C470CD2004D9F1C /* UberRides.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = AC0404741BFACD1D00AC1501;
 			remoteInfo = UberRides;
@@ -82,7 +82,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AB0E76371C47039000F8B60B /* UberRides.framework in Embed Frameworks */,
+				AB8CA2A31C470CEB004D9F1C /* UberRides.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,7 +91,6 @@
 
 /* Begin PBXFileReference section */
 		A9DFD3021C3DA7F300C33E13 /* wpi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wpi.jpg; sourceTree = "<group>"; };
-		AB0E762D1C47038100F8B60B /* UberRides.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UberRides.xcodeproj; path = "rides-ios-sdk/source/UberRides.xcodeproj"; sourceTree = "<group>"; };
 		AB0E763A1C4704AA00F8B60B /* RequestRideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestRideViewController.h; sourceTree = "<group>"; };
 		AB0E763B1C4704AA00F8B60B /* RequestRideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestRideViewController.m; sourceTree = "<group>"; };
 		AB896AFA1C4458E8005EBE63 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
@@ -99,6 +98,7 @@
 		AB896AFC1C4458E8005EBE63 /* RegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
 		AB896B041C446DF6005EBE63 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
 		AB896B051C446DF6005EBE63 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		AB8CA2991C470CD2004D9F1C /* UberRides.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UberRides.xcodeproj; path = "../../Campus-Cruises/Campus-Cruises/rides-ios-sdk/source/UberRides.xcodeproj"; sourceTree = "<group>"; };
 		AB983E701C3DAA8C00268554 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		AB983E711C3DAA8C00268554 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		AB983E741C3DAAB000268554 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -139,7 +139,7 @@
 				AB983E851C3DAAE600268554 /* libz.tbd in Frameworks */,
 				AB983E831C3DAADF00268554 /* SystemConfiguration.framework in Frameworks */,
 				AB983E811C3DAAD600268554 /* StoreKit.framework in Frameworks */,
-				AB0E76361C47039000F8B60B /* UberRides.framework in Frameworks */,
+				AB8CA2A21C470CEB004D9F1C /* UberRides.framework in Frameworks */,
 				AB983E7F1C3DAACF00268554 /* Security.framework in Frameworks */,
 				AB983E7D1C3DAAC900268554 /* QuartzCore.framework in Frameworks */,
 				AB983E7B1C3DAAC300268554 /* CoreLocation.framework in Frameworks */,
@@ -168,11 +168,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB0E762E1C47038100F8B60B /* Products */ = {
+		AB8CA29A1C470CD2004D9F1C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB0E76331C47038100F8B60B /* UberRides.framework */,
-				AB0E76351C47038100F8B60B /* UberRidesTests.xctest */,
+				AB8CA29F1C470CD2004D9F1C /* UberRides.framework */,
+				AB8CA2A11C470CD2004D9F1C /* UberRidesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,7 +180,7 @@
 		ABA1AAC11C3D941A008E63DD = {
 			isa = PBXGroup;
 			children = (
-				AB0E762D1C47038100F8B60B /* UberRides.xcodeproj */,
+				AB8CA2991C470CD2004D9F1C /* UberRides.xcodeproj */,
 				AB983E861C3DAAED00268554 /* libsqlite3.tbd */,
 				AB983E841C3DAAE600268554 /* libz.tbd */,
 				AB983E821C3DAADF00268554 /* SystemConfiguration.framework */,
@@ -276,7 +276,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				AB0E76391C47039000F8B60B /* PBXTargetDependency */,
+				AB8CA2A51C470CEB004D9F1C /* PBXTargetDependency */,
 			);
 			name = "Campus-Cruises";
 			productName = "Campus-Cruises";
@@ -354,8 +354,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = AB0E762E1C47038100F8B60B /* Products */;
-					ProjectRef = AB0E762D1C47038100F8B60B /* UberRides.xcodeproj */;
+					ProductGroup = AB8CA29A1C470CD2004D9F1C /* Products */;
+					ProjectRef = AB8CA2991C470CD2004D9F1C /* UberRides.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -368,18 +368,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		AB0E76331C47038100F8B60B /* UberRides.framework */ = {
+		AB8CA29F1C470CD2004D9F1C /* UberRides.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = UberRides.framework;
-			remoteRef = AB0E76321C47038100F8B60B /* PBXContainerItemProxy */;
+			remoteRef = AB8CA29E1C470CD2004D9F1C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		AB0E76351C47038100F8B60B /* UberRidesTests.xctest */ = {
+		AB8CA2A11C470CD2004D9F1C /* UberRidesTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = UberRidesTests.xctest;
-			remoteRef = AB0E76341C47038100F8B60B /* PBXContainerItemProxy */;
+			remoteRef = AB8CA2A01C470CD2004D9F1C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -447,10 +447,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AB0E76391C47039000F8B60B /* PBXTargetDependency */ = {
+		AB8CA2A51C470CEB004D9F1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UberRides;
-			targetProxy = AB0E76381C47039000F8B60B /* PBXContainerItemProxy */;
+			targetProxy = AB8CA2A41C470CEB004D9F1C /* PBXContainerItemProxy */;
 		};
 		ABA1AAE81C3D941B008E63DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
