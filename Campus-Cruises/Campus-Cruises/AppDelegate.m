@@ -32,7 +32,7 @@
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
     // TODO correct this as well
-    [[RidesClient sharedInstance] configureClientID:@"xK8uH7PzRPKkGzp5vJMDfbIcv38mSoZz"];
+    [[RidesClient sharedInstance] configureClientID:@"00HLKGS9448Bq-Dme9vPMGZcfz4uwQma"];
     
     return YES;
 }
