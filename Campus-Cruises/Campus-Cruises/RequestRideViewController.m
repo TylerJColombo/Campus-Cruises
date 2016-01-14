@@ -18,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@"MADE IT");
+
     // create background views
     UIView *topView = [[UIView alloc] init];
     [self.view addSubview:topView];
@@ -30,7 +32,7 @@
     
     // add white request button and add custom configurations
     RequestButton *whiteRequestButton = [[RequestButton alloc] initWithColorStyle:RequestButtonColorStyleWhite];
-    // TODO -- verify [whiteRequestButton setProductID:@"a1111c8c-c720-46c3-8534-2fcdd730040d"];
+    [whiteRequestButton setProductID:@"campus-cruises-id"];
     [whiteRequestButton setPickupLocationWithLatitude:@"37.770" longitude:@"-122.466" nickname:@"California Academy of Sciences" address:nil];
     [whiteRequestButton setDropoffLocationWithLatitude:@"37.791" longitude:@"-122.405" nickname:@"Pier 39" address:nil];
     [bottomView addSubview:whiteRequestButton];

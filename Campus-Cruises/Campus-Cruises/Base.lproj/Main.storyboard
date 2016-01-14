@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -139,7 +139,7 @@
         <!--requestViewController-->
         <scene sceneID="kGY-vq-wvZ">
             <objects>
-                <viewController storyboardIdentifier="loggedIn" title="requestViewController" id="6DA-Jm-pgZ" customClass="RequestRideViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="requestViewController" title="requestViewController" id="6DA-Jm-pgZ" customClass="RequestRideViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vL7-xO-Rsy"/>
                         <viewControllerLayoutGuide type="bottom" id="cXz-bz-btO"/>
@@ -164,10 +164,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <outlet property="requestRide" destination="Nly-Tl-UEU" id="Ncu-BJ-1Mg"/>
-                        <outlet property="requestViewController" destination="Nly-Tl-UEU" id="4hZ-em-wWU"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IEm-K4-dFM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -313,6 +309,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="SLw-s3-nA5"/>
-        <segue reference="N4i-Wm-h2B"/>
+        <segue reference="vC4-C8-Ubd"/>
     </inferredMetricsTieBreakers>
 </document>
