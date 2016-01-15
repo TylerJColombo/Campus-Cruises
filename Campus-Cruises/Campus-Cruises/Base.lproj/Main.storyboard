@@ -258,7 +258,6 @@
                         <outlet property="password2TextField" destination="vQL-pu-DSA" id="yo1-rz-b55"/>
                         <outlet property="passwordTextField" destination="8WA-wV-lhr" id="KoN-lR-ned"/>
                         <outlet property="studentIDTextField" destination="Vga-y6-UfU" id="8l3-aq-4M1"/>
-                        <outlet property="view" destination="ZUA-Iu-Ab9" id="S80-w8-QvY"/>
                         <segue destination="6DA-Jm-pgZ" kind="presentation" identifier="registeredSuccessfully" id="N4i-Wm-h2B"/>
                     </connections>
                 </viewController>
@@ -308,7 +307,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="SLw-s3-nA5"/>
-        <segue reference="vC4-C8-Ubd"/>
+        <segue reference="N7s-C4-fbf"/>
+        <segue reference="N4i-Wm-h2B"/>
     </inferredMetricsTieBreakers>
 </document>
