@@ -26,6 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    [self.view endEditing:YES];
+}
+
 // TODO:
 //      1) Remove back button to avoid weird double login issues -- later
 - (IBAction)signIn:(UIButton *)sender {

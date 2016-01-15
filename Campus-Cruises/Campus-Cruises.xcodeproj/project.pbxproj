@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A91756D31C496770006F8E73 /* UberRides.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A91756CE1C49675E006F8E73 /* UberRides.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A9DFD3031C3DA7F300C33E13 /* wpi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9DFD3021C3DA7F300C33E13 /* wpi.jpg */; };
 		AB0E763C1C4704AA00F8B60B /* RequestRideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0E763B1C4704AA00F8B60B /* RequestRideViewController.m */; };
 		AB896AFD1C4458E8005EBE63 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB896AFB1C4458E8005EBE63 /* RegistrationViewController.m */; };
@@ -34,30 +33,21 @@
 		ABA1AAE01C3D941A008E63DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA1AADE1C3D941A008E63DD /* LaunchScreen.storyboard */; };
 		ABA1AAEB1C3D941B008E63DD /* Campus_CruisesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1AAEA1C3D941B008E63DD /* Campus_CruisesTests.m */; };
 		ABA1AAF61C3D941B008E63DD /* Campus_CruisesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1AAF51C3D941B008E63DD /* Campus_CruisesUITests.m */; };
+		ABE109BB1C496A3A007861C9 /* GoogleMapsM4B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE109BA1C496A3A007861C9 /* GoogleMapsM4B.framework */; };
+		ABE109BD1C496A5E007861C9 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ABE109BC1C496A5E007861C9 /* GoogleMaps.bundle */; };
+		ABE109BF1C496A7F007861C9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE109BE1C496A7F007861C9 /* Accelerate.framework */; };
+		ABE109C11C496A83007861C9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE109C01C496A83007861C9 /* AVFoundation.framework */; };
+		ABE109C31C496A89007861C9 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE109C21C496A89007861C9 /* CoreBluetooth.framework */; };
+		ABE109C51C496A90007861C9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE109C41C496A90007861C9 /* CoreData.framework */; };
+		ABE109C71C496AA4007861C9 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE109C61C496AA4007861C9 /* CoreText.framework */; };
+		ABE109C91C496AAB007861C9 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE109C81C496AAB007861C9 /* GLKit.framework */; };
+		ABE109CB1C496AB1007861C9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE109CA1C496AB1007861C9 /* ImageIO.framework */; };
+		ABE109CD1C496AD7007861C9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE109CC1C496AD7007861C9 /* libc++.tbd */; };
+		ABE109CF1C496AE0007861C9 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE109CE1C496AE0007861C9 /* libicucore.tbd */; };
+		ABE109D11C496AEB007861C9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE109D01C496AEB007861C9 /* OpenGLES.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A91756CD1C49675E006F8E73 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A91756C81C49675E006F8E73 /* UberRides.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AC0404751BFACD1D00AC1501;
-			remoteInfo = UberRides;
-		};
-		A91756CF1C49675E006F8E73 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A91756C81C49675E006F8E73 /* UberRides.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AC04047F1BFACD1D00AC1501;
-			remoteInfo = UberRidesTests;
-		};
-		A91756D11C496768006F8E73 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A91756C81C49675E006F8E73 /* UberRides.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = AC0404741BFACD1D00AC1501;
-			remoteInfo = UberRides;
-		};
 		ABA1AAE71C3D941B008E63DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABA1AAC21C3D941A008E63DD /* Project object */;
@@ -81,7 +71,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A91756D31C496770006F8E73 /* UberRides.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,7 +78,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A91756C81C49675E006F8E73 /* UberRides.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UberRides.xcodeproj; path = "rides-ios-sdk/source/UberRides.xcodeproj"; sourceTree = "<group>"; };
 		A9DFD3021C3DA7F300C33E13 /* wpi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wpi.jpg; sourceTree = "<group>"; };
 		AB0E763A1C4704AA00F8B60B /* RequestRideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestRideViewController.h; sourceTree = "<group>"; };
 		AB0E763B1C4704AA00F8B60B /* RequestRideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestRideViewController.m; sourceTree = "<group>"; };
@@ -127,6 +115,18 @@
 		ABA1AAF11C3D941B008E63DD /* Campus-CruisesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Campus-CruisesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA1AAF51C3D941B008E63DD /* Campus_CruisesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Campus_CruisesUITests.m; sourceTree = "<group>"; };
 		ABA1AAF71C3D941B008E63DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE109BA1C496A3A007861C9 /* GoogleMapsM4B.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsM4B.framework; sourceTree = "<group>"; };
+		ABE109BC1C496A5E007861C9 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		ABE109BE1C496A7F007861C9 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		ABE109C01C496A83007861C9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ABE109C21C496A89007861C9 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		ABE109C41C496A90007861C9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ABE109C61C496AA4007861C9 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		ABE109C81C496AAB007861C9 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		ABE109CA1C496AB1007861C9 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		ABE109CC1C496AD7007861C9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		ABE109CE1C496AE0007861C9 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		ABE109D01C496AEB007861C9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,14 +134,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB983E871C3DAAED00268554 /* libsqlite3.tbd in Frameworks */,
-				AB983E851C3DAAE600268554 /* libz.tbd in Frameworks */,
 				AB983E831C3DAADF00268554 /* SystemConfiguration.framework in Frameworks */,
-				AB983E811C3DAAD600268554 /* StoreKit.framework in Frameworks */,
 				AB983E7F1C3DAACF00268554 /* Security.framework in Frameworks */,
 				AB983E7D1C3DAAC900268554 /* QuartzCore.framework in Frameworks */,
+				ABE109D11C496AEB007861C9 /* OpenGLES.framework in Frameworks */,
+				ABE109CF1C496AE0007861C9 /* libicucore.tbd in Frameworks */,
+				ABE109CD1C496AD7007861C9 /* libc++.tbd in Frameworks */,
+				ABE109CB1C496AB1007861C9 /* ImageIO.framework in Frameworks */,
+				ABE109C91C496AAB007861C9 /* GLKit.framework in Frameworks */,
+				ABE109C71C496AA4007861C9 /* CoreText.framework in Frameworks */,
 				AB983E7B1C3DAAC300268554 /* CoreLocation.framework in Frameworks */,
 				AB983E791C3DAABE00268554 /* CoreGraphics.framework in Frameworks */,
+				ABE109C51C496A90007861C9 /* CoreData.framework in Frameworks */,
+				ABE109C31C496A89007861C9 /* CoreBluetooth.framework in Frameworks */,
+				ABE109C11C496A83007861C9 /* AVFoundation.framework in Frameworks */,
+				ABE109BF1C496A7F007861C9 /* Accelerate.framework in Frameworks */,
+				AB983E871C3DAAED00268554 /* libsqlite3.tbd in Frameworks */,
+				AB983E851C3DAAE600268554 /* libz.tbd in Frameworks */,
+				AB983E811C3DAAD600268554 /* StoreKit.framework in Frameworks */,
+				ABE109BB1C496A3A007861C9 /* GoogleMapsM4B.framework in Frameworks */,
 				AB983E771C3DAAB700268554 /* CFNetwork.framework in Frameworks */,
 				AB983E751C3DAAB000268554 /* AudioToolbox.framework in Frameworks */,
 				AB983E731C3DAA8C00268554 /* Parse.framework in Frameworks */,
@@ -166,19 +177,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A91756C91C49675E006F8E73 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A91756CE1C49675E006F8E73 /* UberRides.framework */,
-				A91756D01C49675E006F8E73 /* UberRidesTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		ABA1AAC11C3D941A008E63DD = {
 			isa = PBXGroup;
 			children = (
-				A91756C81C49675E006F8E73 /* UberRides.xcodeproj */,
+				ABE109D01C496AEB007861C9 /* OpenGLES.framework */,
+				ABE109CE1C496AE0007861C9 /* libicucore.tbd */,
+				ABE109CC1C496AD7007861C9 /* libc++.tbd */,
+				ABE109CA1C496AB1007861C9 /* ImageIO.framework */,
+				ABE109C81C496AAB007861C9 /* GLKit.framework */,
+				ABE109C61C496AA4007861C9 /* CoreText.framework */,
+				ABE109C41C496A90007861C9 /* CoreData.framework */,
+				ABE109C21C496A89007861C9 /* CoreBluetooth.framework */,
+				ABE109C01C496A83007861C9 /* AVFoundation.framework */,
+				ABE109BE1C496A7F007861C9 /* Accelerate.framework */,
+				ABE109BC1C496A5E007861C9 /* GoogleMaps.bundle */,
+				ABE109BA1C496A3A007861C9 /* GoogleMapsM4B.framework */,
 				AB983E861C3DAAED00268554 /* libsqlite3.tbd */,
 				AB983E841C3DAAE600268554 /* libz.tbd */,
 				AB983E821C3DAADF00268554 /* SystemConfiguration.framework */,
@@ -274,7 +287,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				A91756D21C496768006F8E73 /* PBXTargetDependency */,
 			);
 			name = "Campus-Cruises";
 			productName = "Campus-Cruises";
@@ -350,12 +362,6 @@
 			mainGroup = ABA1AAC11C3D941A008E63DD;
 			productRefGroup = ABA1AACB1C3D941A008E63DD /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A91756C91C49675E006F8E73 /* Products */;
-					ProjectRef = A91756C81C49675E006F8E73 /* UberRides.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				ABA1AAC91C3D941A008E63DD /* Campus-Cruises */,
@@ -365,23 +371,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		A91756CE1C49675E006F8E73 /* UberRides.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = UberRides.framework;
-			remoteRef = A91756CD1C49675E006F8E73 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A91756D01C49675E006F8E73 /* UberRidesTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = UberRidesTests.xctest;
-			remoteRef = A91756CF1C49675E006F8E73 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		ABA1AAC81C3D941A008E63DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -390,6 +379,7 @@
 				AB896AFE1C4458E8005EBE63 /* RegistrationViewController.xib in Resources */,
 				ABA1AAE01C3D941A008E63DD /* LaunchScreen.storyboard in Resources */,
 				ABA1AADD1C3D941A008E63DD /* Assets.xcassets in Resources */,
+				ABE109BD1C496A5E007861C9 /* GoogleMaps.bundle in Resources */,
 				A9DFD3031C3DA7F300C33E13 /* wpi.jpg in Resources */,
 				ABA1AAD81C3D941A008E63DD /* Main.storyboard in Resources */,
 			);
@@ -445,11 +435,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A91756D21C496768006F8E73 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UberRides;
-			targetProxy = A91756D11C496768006F8E73 /* PBXContainerItemProxy */;
-		};
 		ABA1AAE81C3D941B008E63DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ABA1AAC91C3D941A008E63DD /* Campus-Cruises */;
@@ -578,6 +563,7 @@
 				INFOPLIST_FILE = "Campus-Cruises/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				New_Setting = "";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Campus-Cruises";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -597,6 +583,7 @@
 				INFOPLIST_FILE = "Campus-Cruises/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				New_Setting = "";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Campus-Cruises";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

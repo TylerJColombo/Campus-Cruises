@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
-@import UberRides;
+#import <GoogleMapsM4B/GoogleMaps.h>
 
 // TODO Need to register our app with Uber developer site
 
@@ -31,8 +31,10 @@
     // [Optional] Track statistics around application opens.
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
+    [GMSServices provideAPIKey:@"AIzaSyDCqXOhxaRW_DnDFna6omegqbIeVpaKagk"];
+    
     // TODO correct this as well
-    [[RidesClient sharedInstance] configureClientID:@"00HLKGS9448Bq-Dme9vPMGZcfz4uwQma"];
+    //[[RidesClient sharedInstance] configureClientID:@"00HLKGS9448Bq-Dme9vPMGZcfz4uwQma"];
     
     return YES;
 }
