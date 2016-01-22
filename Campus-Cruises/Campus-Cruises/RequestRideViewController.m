@@ -7,7 +7,7 @@
 //
 
 #import "RequestRideViewController.h"
-#import <GoogleMapsM4B/GoogleMaps.h>
+@import GoogleMaps;
 
 @interface RequestRideViewController ()
 
@@ -15,13 +15,14 @@
 
 @implementation RequestRideViewController
 
-GMSMapView *mapView_;
+//GMSMapView *mapView_;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
 
 - (void)loadView {
+    /*
     // Create a GMSCameraPosition that tells the map to display the
     // coordinate -33.86,151.20 at zoom level 6.
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.86
@@ -37,6 +38,7 @@ GMSMapView *mapView_;
     marker.title = @"Sydney";
     marker.snippet = @"Australia";
     marker.map = mapView_;
+     */
 }
 
 - (void)didReceiveMemoryWarning {
