@@ -33,8 +33,6 @@
 		ABA1AAE01C3D941A008E63DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA1AADE1C3D941A008E63DD /* LaunchScreen.storyboard */; };
 		ABA1AAEB1C3D941B008E63DD /* Campus_CruisesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1AAEA1C3D941B008E63DD /* Campus_CruisesTests.m */; };
 		ABA1AAF61C3D941B008E63DD /* Campus_CruisesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1AAF51C3D941B008E63DD /* Campus_CruisesUITests.m */; };
-		ABE109BB1C496A3A007861C9 /* GoogleMapsM4B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE109BA1C496A3A007861C9 /* GoogleMapsM4B.framework */; };
-		ABE109BD1C496A5E007861C9 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ABE109BC1C496A5E007861C9 /* GoogleMaps.bundle */; };
 		ABE109BF1C496A7F007861C9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE109BE1C496A7F007861C9 /* Accelerate.framework */; };
 		ABE109C11C496A83007861C9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE109C01C496A83007861C9 /* AVFoundation.framework */; };
 		ABE109C31C496A89007861C9 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE109C21C496A89007861C9 /* CoreBluetooth.framework */; };
@@ -115,8 +113,6 @@
 		ABA1AAF11C3D941B008E63DD /* Campus-CruisesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Campus-CruisesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA1AAF51C3D941B008E63DD /* Campus_CruisesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Campus_CruisesUITests.m; sourceTree = "<group>"; };
 		ABA1AAF71C3D941B008E63DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABE109BA1C496A3A007861C9 /* GoogleMapsM4B.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsM4B.framework; sourceTree = "<group>"; };
-		ABE109BC1C496A5E007861C9 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
 		ABE109BE1C496A7F007861C9 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		ABE109C01C496A83007861C9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		ABE109C21C496A89007861C9 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
@@ -152,7 +148,6 @@
 				AB983E871C3DAAED00268554 /* libsqlite3.tbd in Frameworks */,
 				AB983E851C3DAAE600268554 /* libz.tbd in Frameworks */,
 				AB983E811C3DAAD600268554 /* StoreKit.framework in Frameworks */,
-				ABE109BB1C496A3A007861C9 /* GoogleMapsM4B.framework in Frameworks */,
 				AB983E771C3DAAB700268554 /* CFNetwork.framework in Frameworks */,
 				AB983E751C3DAAB000268554 /* AudioToolbox.framework in Frameworks */,
 				AB983E731C3DAA8C00268554 /* Parse.framework in Frameworks */,
@@ -190,8 +185,6 @@
 				ABE109C21C496A89007861C9 /* CoreBluetooth.framework */,
 				ABE109C01C496A83007861C9 /* AVFoundation.framework */,
 				ABE109BE1C496A7F007861C9 /* Accelerate.framework */,
-				ABE109BC1C496A5E007861C9 /* GoogleMaps.bundle */,
-				ABE109BA1C496A3A007861C9 /* GoogleMapsM4B.framework */,
 				AB983E861C3DAAED00268554 /* libsqlite3.tbd */,
 				AB983E841C3DAAE600268554 /* libz.tbd */,
 				AB983E821C3DAADF00268554 /* SystemConfiguration.framework */,
@@ -379,7 +372,6 @@
 				AB896AFE1C4458E8005EBE63 /* RegistrationViewController.xib in Resources */,
 				ABA1AAE01C3D941A008E63DD /* LaunchScreen.storyboard in Resources */,
 				ABA1AADD1C3D941A008E63DD /* Assets.xcassets in Resources */,
-				ABE109BD1C496A5E007861C9 /* GoogleMaps.bundle in Resources */,
 				A9DFD3031C3DA7F300C33E13 /* wpi.jpg in Resources */,
 				ABA1AAD81C3D941A008E63DD /* Main.storyboard in Resources */,
 			);
