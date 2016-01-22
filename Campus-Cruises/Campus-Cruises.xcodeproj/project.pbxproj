@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09E6922DC21AC9FD504F3A16 /* libPods-Campus-Cruises.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 663D9C5170575405EF01A57B /* libPods-Campus-Cruises.a */; };
 		A9DFD3031C3DA7F300C33E13 /* wpi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9DFD3021C3DA7F300C33E13 /* wpi.jpg */; };
 		AB0E763C1C4704AA00F8B60B /* RequestRideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0E763B1C4704AA00F8B60B /* RequestRideViewController.m */; };
 		AB896AFD1C4458E8005EBE63 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB896AFB1C4458E8005EBE63 /* RegistrationViewController.m */; };
@@ -76,6 +77,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		49DE53DBC2F9659DEFD8AF4F /* Pods-Campus-Cruises.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Cruises.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Cruises/Pods-Campus-Cruises.debug.xcconfig"; sourceTree = "<group>"; };
+		663D9C5170575405EF01A57B /* libPods-Campus-Cruises.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Campus-Cruises.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		749458ADCE44955385D81DAF /* Pods-Campus-Cruises.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Cruises.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Cruises/Pods-Campus-Cruises.release.xcconfig"; sourceTree = "<group>"; };
 		A9DFD3021C3DA7F300C33E13 /* wpi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wpi.jpg; sourceTree = "<group>"; };
 		AB0E763A1C4704AA00F8B60B /* RequestRideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestRideViewController.h; sourceTree = "<group>"; };
 		AB0E763B1C4704AA00F8B60B /* RequestRideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestRideViewController.m; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 				AB983E751C3DAAB000268554 /* AudioToolbox.framework in Frameworks */,
 				AB983E731C3DAA8C00268554 /* Parse.framework in Frameworks */,
 				AB983E721C3DAA8C00268554 /* Bolts.framework in Frameworks */,
+				09E6922DC21AC9FD504F3A16 /* libPods-Campus-Cruises.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +177,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A0F1AC34647955E1DBA98AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				663D9C5170575405EF01A57B /* libPods-Campus-Cruises.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ABA1AAC11C3D941A008E63DD = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +214,8 @@
 				ABA1AAE91C3D941B008E63DD /* Campus-CruisesTests */,
 				ABA1AAF41C3D941B008E63DD /* Campus-CruisesUITests */,
 				ABA1AACB1C3D941A008E63DD /* Products */,
+				C6D2366D6C00FAFC129C15C4 /* Pods */,
+				8A0F1AC34647955E1DBA98AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -265,6 +280,15 @@
 			path = "Campus-CruisesUITests";
 			sourceTree = "<group>";
 		};
+		C6D2366D6C00FAFC129C15C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49DE53DBC2F9659DEFD8AF4F /* Pods-Campus-Cruises.debug.xcconfig */,
+				749458ADCE44955385D81DAF /* Pods-Campus-Cruises.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -272,10 +296,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABA1AAFA1C3D941B008E63DD /* Build configuration list for PBXNativeTarget "Campus-Cruises" */;
 			buildPhases = (
+				D583D9278C784DF80C6AF6AB /* Check Pods Manifest.lock */,
 				ABA1AAC61C3D941A008E63DD /* Sources */,
 				ABA1AAC71C3D941A008E63DD /* Frameworks */,
 				ABA1AAC81C3D941A008E63DD /* Resources */,
 				A91756C71C4966E7006F8E73 /* Embed Frameworks */,
+				784D3356FAC489BF72D1AB0B /* Embed Pods Frameworks */,
+				CE669D1A6790F217CFB88FCF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -393,6 +420,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		784D3356FAC489BF72D1AB0B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Campus-Cruises/Pods-Campus-Cruises-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE669D1A6790F217CFB88FCF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Campus-Cruises/Pods-Campus-Cruises-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D583D9278C784DF80C6AF6AB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ABA1AAC61C3D941A008E63DD /* Sources */ = {
@@ -544,6 +619,7 @@
 		};
 		ABA1AAFB1C3D941B008E63DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49DE53DBC2F9659DEFD8AF4F /* Pods-Campus-Cruises.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -565,6 +641,7 @@
 		};
 		ABA1AAFC1C3D941B008E63DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 749458ADCE44955385D81DAF /* Pods-Campus-Cruises.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
