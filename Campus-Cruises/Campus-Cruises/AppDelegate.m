@@ -9,8 +9,8 @@
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
 @import GoogleMaps;
+#import "GoogleMaps/GoogleMaps.h"
 
-// TODO Need to register our app with Uber developer site
 
 @interface AppDelegate ()
 
@@ -35,8 +35,11 @@
     
     // TODO correct this as well
     //[[RidesClient sharedInstance] configureClientID:@"00HLKGS9448Bq-Dme9vPMGZcfz4uwQma"];
+
+
     
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

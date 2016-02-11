@@ -8,6 +8,13 @@
 
 #import "RequestRideViewController.h"
 @import GoogleMaps;
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import "SidebarMenuViewController.h"
+#import "TestAViewController.h"
+#import "GoogleMaps.h"
+
+
 
 @interface RequestRideViewController ()
 
@@ -15,14 +22,17 @@
 
 @implementation RequestRideViewController
 
+
 //GMSMapView *mapView_;
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
 
 - (void)loadView {
-    /*
+    
     // Create a GMSCameraPosition that tells the map to display the
     // coordinate -33.86,151.20 at zoom level 6.
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.86
@@ -38,7 +48,26 @@
     marker.title = @"Sydney";
     marker.snippet = @"Australia";
     marker.map = mapView_;
-     */
+    
+    //The side bar shit is below
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+    SidebarMenuViewController *sidebarMenuVC = [[SidebarMenuViewController alloc] initWithNibName:@"SidebarMenuViewController" bundle:nil];
+    
+    TestAViewController *testAViewController = [[TestAViewController alloc] initWithNibName:@"TestAViewController" bundle:nil];
+    sidebarMenuVC.menuItemViewControllers = [[NSArray alloc] initWithObjects:testAViewController, nil];
+
+    sidebarMenuVC.menuItemNames = [[NSArray alloc] initWithObjects:@"Account", @"Pay Me Bitches", @"Previous Rides", @"Help", @"Notifications", @"Settings", @"About Us", nil];
+    
+    sidebarMenuVC.sideBarButtonImageName = @"sidebarMenuImage";
+    
+    [self.window setRootViewController:sidebarMenuVC];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self.window makeKeyAndVisible];
+    
 }
 
 - (void)didReceiveMemoryWarning {

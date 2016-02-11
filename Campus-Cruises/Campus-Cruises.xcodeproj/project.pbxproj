@@ -8,7 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		09E6922DC21AC9FD504F3A16 /* libPods-Campus-Cruises.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 663D9C5170575405EF01A57B /* libPods-Campus-Cruises.a */; };
+		A91D71A61C62CDA8005DC8D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91D71A51C62CDA8005DC8D8 /* UIKit.framework */; };
+		A91D71B01C62D447005DC8D8 /* TestAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91D71A81C62D447005DC8D8 /* TestAViewController.m */; };
+		A98B045E1C5AED2A00F59A55 /* SidebarMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A98B045D1C5AED2A00F59A55 /* SidebarMenuViewController.m */; };
+		A98B04601C5AED6200F59A55 /* SidebarMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A98B045F1C5AED6200F59A55 /* SidebarMenuViewController.xib */; };
 		A9DFD3031C3DA7F300C33E13 /* wpi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9DFD3021C3DA7F300C33E13 /* wpi.jpg */; };
+		A9EE259C1C6417AF003C2A9F /* TestAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9EE259B1C6417AF003C2A9F /* TestAViewController.xib */; };
 		AB0E763C1C4704AA00F8B60B /* RequestRideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0E763B1C4704AA00F8B60B /* RequestRideViewController.m */; };
 		AB896AFD1C4458E8005EBE63 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB896AFB1C4458E8005EBE63 /* RegistrationViewController.m */; };
 		AB896AFE1C4458E8005EBE63 /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB896AFC1C4458E8005EBE63 /* RegistrationViewController.xib */; };
@@ -80,7 +85,14 @@
 		49DE53DBC2F9659DEFD8AF4F /* Pods-Campus-Cruises.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Cruises.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Cruises/Pods-Campus-Cruises.debug.xcconfig"; sourceTree = "<group>"; };
 		663D9C5170575405EF01A57B /* libPods-Campus-Cruises.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Campus-Cruises.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		749458ADCE44955385D81DAF /* Pods-Campus-Cruises.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus-Cruises.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus-Cruises/Pods-Campus-Cruises.release.xcconfig"; sourceTree = "<group>"; };
+		A91D71A51C62CDA8005DC8D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A91D71A71C62D447005DC8D8 /* TestAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestAViewController.h; path = "../../../ios-sidebar-menu/sidebar-menu-ios/TestAViewController.h"; sourceTree = "<group>"; };
+		A91D71A81C62D447005DC8D8 /* TestAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestAViewController.m; path = "../../../ios-sidebar-menu/sidebar-menu-ios/TestAViewController.m"; sourceTree = "<group>"; };
+		A98B045C1C5AED2A00F59A55 /* SidebarMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidebarMenuViewController.h; path = "../../../ios-sidebar-menu/sidebar-menu-ios/SidebarMenuViewController.h"; sourceTree = "<group>"; };
+		A98B045D1C5AED2A00F59A55 /* SidebarMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SidebarMenuViewController.m; path = "../../../ios-sidebar-menu/sidebar-menu-ios/SidebarMenuViewController.m"; sourceTree = "<group>"; };
+		A98B045F1C5AED6200F59A55 /* SidebarMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SidebarMenuViewController.xib; path = "../../../ios-sidebar-menu/sidebar-menu-ios/SidebarMenuViewController.xib"; sourceTree = "<group>"; };
 		A9DFD3021C3DA7F300C33E13 /* wpi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wpi.jpg; sourceTree = "<group>"; };
+		A9EE259B1C6417AF003C2A9F /* TestAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestAViewController.xib; path = "../../../ios-sidebar-menu/sidebar-menu-ios/TestAViewController.xib"; sourceTree = "<group>"; };
 		AB0E763A1C4704AA00F8B60B /* RequestRideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestRideViewController.h; sourceTree = "<group>"; };
 		AB0E763B1C4704AA00F8B60B /* RequestRideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestRideViewController.m; sourceTree = "<group>"; };
 		AB896AFA1C4458E8005EBE63 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
@@ -134,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A91D71A61C62CDA8005DC8D8 /* UIKit.framework in Frameworks */,
 				AB983E831C3DAADF00268554 /* SystemConfiguration.framework in Frameworks */,
 				AB983E7F1C3DAACF00268554 /* Security.framework in Frameworks */,
 				AB983E7D1C3DAAC900268554 /* QuartzCore.framework in Frameworks */,
@@ -180,6 +193,7 @@
 		8A0F1AC34647955E1DBA98AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A91D71A51C62CDA8005DC8D8 /* UIKit.framework */,
 				663D9C5170575405EF01A57B /* libPods-Campus-Cruises.a */,
 			);
 			name = Frameworks;
@@ -234,6 +248,12 @@
 			children = (
 				ABA1AAD01C3D941A008E63DD /* AppDelegate.h */,
 				ABA1AAD11C3D941A008E63DD /* AppDelegate.m */,
+				A98B045F1C5AED6200F59A55 /* SidebarMenuViewController.xib */,
+				A98B045C1C5AED2A00F59A55 /* SidebarMenuViewController.h */,
+				A98B045D1C5AED2A00F59A55 /* SidebarMenuViewController.m */,
+				A91D71A71C62D447005DC8D8 /* TestAViewController.h */,
+				A91D71A81C62D447005DC8D8 /* TestAViewController.m */,
+				A9EE259B1C6417AF003C2A9F /* TestAViewController.xib */,
 				ABA1AAD31C3D941A008E63DD /* ViewController.h */,
 				ABA1AAD41C3D941A008E63DD /* ViewController.m */,
 				ABA1AAD61C3D941A008E63DD /* Main.storyboard */,
@@ -241,7 +261,6 @@
 				ABA1AADE1C3D941A008E63DD /* LaunchScreen.storyboard */,
 				ABA1AAE11C3D941A008E63DD /* Info.plist */,
 				ABA1AAD91C3D941A008E63DD /* Campus_Cruises.xcdatamodeld */,
-				ABA1AACD1C3D941A008E63DD /* Supporting Files */,
 				AB896AFA1C4458E8005EBE63 /* RegistrationViewController.h */,
 				AB896AFB1C4458E8005EBE63 /* RegistrationViewController.m */,
 				AB896AFC1C4458E8005EBE63 /* RegistrationViewController.xib */,
@@ -249,6 +268,7 @@
 				AB896B051C446DF6005EBE63 /* SignInViewController.m */,
 				AB0E763A1C4704AA00F8B60B /* RequestRideViewController.h */,
 				AB0E763B1C4704AA00F8B60B /* RequestRideViewController.m */,
+				ABA1AACD1C3D941A008E63DD /* Supporting Files */,
 			);
 			path = "Campus-Cruises";
 			sourceTree = "<group>";
@@ -360,7 +380,7 @@
 				TargetAttributes = {
 					ABA1AAC91C3D941A008E63DD = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = N3K5UKJ8YK;
+						DevelopmentTeam = 3RWF9P84Y5;
 					};
 					ABA1AAE51C3D941B008E63DD = {
 						CreatedOnToolsVersion = 7.2;
@@ -397,10 +417,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9EE259C1C6417AF003C2A9F /* TestAViewController.xib in Resources */,
 				AB896AFE1C4458E8005EBE63 /* RegistrationViewController.xib in Resources */,
 				ABA1AAE01C3D941A008E63DD /* LaunchScreen.storyboard in Resources */,
 				ABA1AADD1C3D941A008E63DD /* Assets.xcassets in Resources */,
 				A9DFD3031C3DA7F300C33E13 /* wpi.jpg in Resources */,
+				A98B04601C5AED6200F59A55 /* SidebarMenuViewController.xib in Resources */,
 				ABA1AAD81C3D941A008E63DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +500,8 @@
 				ABA1AADB1C3D941A008E63DD /* Campus_Cruises.xcdatamodeld in Sources */,
 				AB896AFD1C4458E8005EBE63 /* RegistrationViewController.m in Sources */,
 				ABA1AAD21C3D941A008E63DD /* AppDelegate.m in Sources */,
+				A98B045E1C5AED2A00F59A55 /* SidebarMenuViewController.m in Sources */,
+				A91D71B01C62D447005DC8D8 /* TestAViewController.m in Sources */,
 				AB0E763C1C4704AA00F8B60B /* RequestRideViewController.m in Sources */,
 				AB896B061C446DF6005EBE63 /* SignInViewController.m in Sources */,
 				ABA1AACF1C3D941A008E63DD /* main.m in Sources */,
@@ -628,12 +652,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Frameworks",
 				);
 				INFOPLIST_FILE = "Campus-Cruises/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				New_Setting = "";
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CampusCruises;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CampusCruze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -650,12 +675,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Frameworks",
 				);
 				INFOPLIST_FILE = "Campus-Cruises/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				New_Setting = "";
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CampusCruises;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CampusCruze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
